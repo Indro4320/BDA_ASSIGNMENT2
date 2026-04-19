@@ -1,81 +1,127 @@
-Big Data Analytics using PySpark
-This project demonstrates the use of PySpark for performing classification, clustering, and recommendation tasks on real-world datasets. The notebook covers the complete workflow including data preprocessing, model building, evaluation, and visualization.
+# Big Data Analytics with PySpark
 
-Note: This project is designed to run in Google Colab. All datasets are downloaded dynamically during execution and are not stored in this repository.
+This project explores how PySpark can be used to solve real-world machine learning problems at scale. It demonstrates three core analytics tasks—classification, clustering, and recommendation systems—while walking through the full pipeline from raw data to meaningful insights.
 
-Overview
-The project includes three main tasks:
+The implementation is designed to be simple, practical, and reproducible, making it suitable for learning and experimentation in distributed data processing.
 
-Classification using Logistic Regression on the Titanic dataset
-Clustering using K-Means on the Iris dataset
-Recommendation system using ALS on the MovieLens dataset
-Technologies Used
-Python
-PySpark (MLlib)
-Pandas
-Matplotlib
-Tasks Implemented
-1. Classification (Titanic Dataset)
-Dataset loaded from:
-https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv
+---
 
-Selected features: Pclass, Sex, Age, Fare
+## 🚀 Project Highlights
 
-Handled missing values
+- End-to-end machine learning workflows using PySpark  
+- Hands-on implementation with real-world datasets  
+- Covers data preprocessing, feature engineering, modeling, and evaluation  
+- Includes visualizations to better understand model performance  
 
-Converted categorical data using StringIndexer
+---
 
-Built Logistic Regression model
+## ⚙️ Environment Setup
 
-Evaluation Metrics:
+This project is designed to run in **Google Colab**.
 
-Accuracy
-F1 Score
-Precision
-Recall
-Visualization:
+- No manual dataset downloads required  
+- All datasets are fetched automatically during execution  
 
-Confusion Matrix
-Scatter Plot (Age vs Fare)
-2. Clustering (Iris Dataset)
-Dataset loaded from:
-https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv
+---
 
-Feature vector created using VectorAssembler
+## 📊 Core Components
 
-Applied K-Means clustering (k = 3)
+### 1. Classification — Titanic Dataset
 
-Evaluation:
+A binary classification problem to predict passenger survival.
 
-Silhouette Score
-Visualization:
+**Workflow:**
+- Selected features: `Pclass`, `Sex`, `Age`, `Fare`  
+- Handled missing values  
+- Encoded categorical variables using `StringIndexer`  
+- Built a Logistic Regression model  
 
-Cluster scatter plot (Sepal Length vs Petal Length)
-3. Recommendation System (MovieLens Dataset)
-Dataset downloaded using:
-wget https://files.grouplens.org/datasets/movielens/ml-100k.zip
-unzip ml-100k.zip
-Used ALS (Alternating Least Squares) for collaborative filtering
-Evaluation:
+**Evaluation Metrics:**
+- Accuracy  
+- Precision  
+- Recall  
+- F1 Score  
 
-RMSE (Root Mean Squared Error)
-Output:
+**Visualizations:**
+- Confusion Matrix  
+- Scatter Plot (Age vs Fare)  
 
-Top movie recommendations for users
-Ratings distribution histogram
-Visualizations
-Confusion Matrix for classification results
-Scatter plots for feature relationships
-Cluster visualization
-Ratings distribution histogram
-How to Run
-Open the notebook in Google Colab
-Ensure PySpark environment is available
-Run all cells sequentially
-All datasets will be downloaded automatically during execution
-Key Learning Outcomes
-Understanding PySpark ML pipeline
-Working with distributed datasets
-Implementing classification, clustering, and recommendation systems
-Evaluating machine learning models
-Data visualization techniques
+---
+
+### 2. Clustering — Iris Dataset
+
+An unsupervised learning task to group similar data points.
+
+**Workflow:**
+- Created feature vectors using `VectorAssembler`  
+- Applied K-Means clustering (`k = 3`)  
+
+**Evaluation:**
+- Silhouette Score  
+
+**Visualization:**
+- Cluster Scatter Plot (Sepal Length vs Petal Length)  
+
+---
+
+### 3. Recommendation System — MovieLens Dataset
+
+A collaborative filtering system for personalized movie recommendations.
+
+**Workflow:**
+- Used ALS (Alternating Least Squares)  
+- Modeled user-item interactions  
+- Generated recommendations  
+
+**Evaluation:**
+- RMSE (Root Mean Squared Error)  
+
+**Outputs:**
+- Top movie recommendations for users  
+- Ratings distribution histogram  
+
+---
+
+## 🛠️ Technologies Used
+
+- Python  
+- PySpark (MLlib)  
+- Pandas  
+- Matplotlib  
+
+---
+
+## 📈 Visualizations
+
+- Confusion Matrix for classification  
+- Scatter plots for feature relationships  
+- Cluster visualization  
+- Ratings distribution histogram  
+
+---
+
+## ▶️ How to Run
+
+1. Open the notebook in Google Colab  
+2. Ensure PySpark is available  
+3. Run all cells sequentially  
+4. Datasets will be downloaded automatically  
+
+---
+
+## 🎯 Learning Outcomes
+
+- Understanding PySpark ML pipelines  
+- Working with distributed datasets  
+- Implementing:
+  - Classification  
+  - Clustering  
+  - Recommendation systems  
+- Evaluating machine learning models  
+- Creating meaningful data visualizations  
+
+---
+
+## 📌 Note
+
+All datasets are downloaded dynamically during execution and are not stored in this repository.
