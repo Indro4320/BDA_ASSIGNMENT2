@@ -82,7 +82,7 @@ A collaborative filtering system for personalized movie recommendations.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python  
 - PySpark (MLlib)  
@@ -91,7 +91,7 @@ A collaborative filtering system for personalized movie recommendations.
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 - Confusion Matrix for classification  
 - Scatter plots for feature relationships  
