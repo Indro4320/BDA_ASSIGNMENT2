@@ -6,7 +6,7 @@ The implementation is designed to be simple, practical, and reproducible, making
 
 ---
 
-## 🚀 Project Highlights
+## Project Highlights
 
 - End-to-end machine learning workflows using PySpark  
 - Hands-on implementation with real-world datasets  
@@ -15,7 +15,7 @@ The implementation is designed to be simple, practical, and reproducible, making
 
 ---
 
-## ⚙️ Environment Setup
+## Environment Setup
 
 This project is designed to run in **Google Colab**.
 
@@ -24,7 +24,7 @@ This project is designed to run in **Google Colab**.
 
 ---
 
-## 📊 Core Components
+## Core Components
 
 ### 1. Classification — Titanic Dataset
 
@@ -100,7 +100,7 @@ A collaborative filtering system for personalized movie recommendations.
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Open the notebook in Google Colab  
 2. Ensure PySpark is available  
@@ -109,7 +109,7 @@ A collaborative filtering system for personalized movie recommendations.
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 - Understanding PySpark ML pipelines  
 - Working with distributed datasets  
@@ -122,6 +122,6 @@ A collaborative filtering system for personalized movie recommendations.
 
 ---
 
-## 📌 Note
+## Note
 
 All datasets are downloaded dynamically during execution and are not stored in this repository.
